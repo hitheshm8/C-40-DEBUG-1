@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+<script src="js/game.js"></script>
+<script src="js/player.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+<!--Add database config here below-->
+
+<script>
+  // Import the functions you need from the SDKs you need
+ 
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyD9yoYeQvxFjepQbAJ0vA2UZOsDWojyFec",
+    authDomain: "friut-collector-72282.firebaseapp.com",
+    databaseURL: "https://friut-collector-72282-default-rtdb.firebaseio.com",
+    projectId: "friut-collector-72282",
+    storageBucket: "friut-collector-72282.appspot.com",
+    messagingSenderId: "46236234832",
+    appId: "1:46236234832:web:3a1e3d5d848315a9694d55"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
